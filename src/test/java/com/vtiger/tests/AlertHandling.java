@@ -12,6 +12,10 @@ public class AlertHandling {
 		System.setProperty("webdriver.chrome.driver","C:/Selenium/Softwares/chromedriver.exe");
 		 driver=new ChromeDriver();
 		driver.get("http://localhost:100/index.php");
+		System.out.println("Changes done by Prajkta branch");
+		System.out.println("Changes done by");
+		System.out.println("Changes done ");
+
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@name='user_name']")).sendKeys("admin");
 		driver.findElement(By.xpath("//input[@name='user_password']")).sendKeys("admin");
